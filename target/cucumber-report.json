@@ -1,0 +1,370 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Acessar sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7156409300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que entre no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "advantageonlineshopping.steps.CadastroTests.que_entre_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6427367600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesso o formulario de abertura de conta",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.acesso_o_formulario_de_abertura_de_conta()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T00:26:54.981Z",
+        "line": 12,
+        "name": "Cadastrar novo usuario",
+        "description": "",
+        "id": "cadastrar-um-novo-usuario;cadastrar-novo-usuario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6037345300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho dados validos de cadastro",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.preencho_dados_validos_de_cadastro()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7476427600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "cadastro realizado",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.cadastro_realizado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@ctpositivocadastro"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Acessar sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4013229500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que entre no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "advantageonlineshopping.steps.CadastroTests.que_entre_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5709326600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesso o formulario de abertura de conta",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.acesso_o_formulario_de_abertura_de_conta()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T00:27:22.281Z",
+        "line": 17,
+        "name": "Cadastrar usuario invalido",
+        "description": "",
+        "id": "cadastrar-um-novo-usuario;cadastrar-usuario-invalido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6016344100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencho dados invalidos",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.preencho_dados_invalidos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3906223400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "nao realiza cadastro",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.nao_realiza_cadastro()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@ctnegativocadastro"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastrar um novo usuario",
+    "description": "  Como usuario quero realizar o cadastro para comprar",
+    "id": "cadastrar-um-novo-usuario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/cadastrocliente.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Acessar sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3623207200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que entre no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "advantageonlineshopping.steps.CadastroTests.que_entre_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1292073900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesso o login",
+            "match": {
+              "location": "advantageonlineshopping.steps.LoginTests.acesso_o_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T00:27:41.954Z",
+        "line": 12,
+        "name": "Login valido",
+        "description": "",
+        "id": "login;login-valido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12189697200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho os dados validos",
+            "match": {
+              "location": "advantageonlineshopping.steps.LoginTests.preencho_os_dados_validos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6023344500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "cadastro realizado",
+            "match": {
+              "location": "advantageonlineshopping.steps.CadastroTests.cadastro_realizado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@ctpositivo"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Acessar sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3902223200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que entre no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "advantageonlineshopping.steps.CadastroTests.que_entre_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1179067400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesso o login",
+            "match": {
+              "location": "advantageonlineshopping.steps.LoginTests.acesso_o_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T00:28:05.103Z",
+        "line": 17,
+        "name": "Login invalido",
+        "description": "",
+        "id": "login;login-invalido",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8270473000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencho os dados invalidos",
+            "match": {
+              "location": "advantageonlineshopping.steps.LoginTests.preencho_os_dados_invalidos()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 652037300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "usuario ou senha invalidos",
+            "match": {
+              "location": "advantageonlineshopping.steps.LoginTests.usuario_ou_senha_invalidos()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@ctnegativo"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Como usuario quero fazer login na pagina",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/logincliente.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
